@@ -1,0 +1,8 @@
+https://cdn.sanity.io/images/ocl5w36p/prod2/80dc4e9564c69bef7aff7dcfdd5f32b365027381-3840x1860.jpg?w=1600&fm=webp&dpr=2
+
+      const token = JSON.parse(localStorage.getItem('token'));
+            const header = {
+                headers:{
+                    Authorization: `Bearer ${token}`
+                }
+            }
